@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
 require('babel/register')({
-  only: ["gatsby/lib"]
+  only: ['gatsby/lib'],
 })
 require('./build')
